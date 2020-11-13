@@ -1,0 +1,24 @@
+/*
+1.Write java programs that include generic method to satisfy the following property.
+    a.	To counts the number of odd integers in an integer list
+    b.	To exchange the positions of two different elements in an array.
+    c.	To find the maximal element in the range [begin, end] of a list.
+ */
+package lab_ex12;
+import java.util.Scanner;
+
+/**
+ *
+ * @author surendar
+ */
+public class Generic_method {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner obj=new Scanner(System.in);
+        Integer l[]={2,19,21,18,22,10,29,6};
+        System.out.println("The list elements are:");
+        for(int i=0;i<l.length;i++)
+            System.out.println(l[i]+…

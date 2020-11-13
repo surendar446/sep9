@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lab_ex13;
+
+import java.awt.Color;
+import java.awt.Font;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+/**
+ *
+ * @author surendar
+ */
+public class Registration_form {
+    JFrame f;
+    JLabel l1,l2,s1,s2; //l-label,p-password,s-sign in
+    JTextField t1,t2,t3,p1,p2; 
+    JPasswordField pw1,pw2; 
+    JCheckBox cb; 
+    JButton b; 
+    Registration_form()
+    {
+        f=new JFrame("Registration Form");
+        l1=new JLabel("------Register…

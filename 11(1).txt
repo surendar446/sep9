@@ -1,0 +1,27 @@
+/*
+1.Write a java program for generating three threads to perform the following operations
+    i)	Getting N numbers as input
+    ii)	Printing the numbers divisible by five
+    iii)Computing the average.
+ */
+package lab_ex11;
+import java.util.Scanner;
+
+/**
+ *
+ * @author surendar
+ */
+public class Threads {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args){
+        // TODO code application logic here
+        Scanner obj=new Scanner(System.in);
+        try 
+        {
+            System.out.println("Enter how many number to calculate: ");
+            int n=obj.nextInt(); 
+            int a[]=new int[n]; //getting input using array
+            System.out.println("Enter the numbers: ");
+            for(int i=0;i<n…

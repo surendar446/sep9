@@ -1,0 +1,25 @@
+/*
+Write a java program that implements inter-thread communication for banking application.
+ */
+package lab_ex11;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author surendar
+ */
+public class Inter_thread {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner obj=new Scanner(System.in);
+        Account a=new Account();
+        System.out.println("Total amount in account is Rs."+a.TotalAmount);
+        System.out.print("Enter the amount to be deposited:");
+        double DepositAmount=obj.nextDouble();
+        System.out.print("Enter the amount to be credited: ");
+        double CreditAmount=obj.nextDouble();
+        Deposit d=new Deposit(a,DepositAmount);…
